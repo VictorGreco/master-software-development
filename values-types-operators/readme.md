@@ -52,8 +52,8 @@ A variable is the name you give to computer memory location which is used to sto
 #### What is more useful?
 The local and global variable equally important while writing a program in any language. However, a large number of the global variable may occupy a huge memory. An undesirable change to global variables is become tough to identify. Therefore, it is advisable to avoid declaring unwanted global variables.
 
-### Data type
-is an attribute of data which tells the compiler or interpreter how the programmer intends to use the data.
+### Data types
+Attribute of data which tells the compiler or interpreter how the programmer intends to use the data.
 
 #### Primitive data types
 * **Integer numbers**: An integer data type represents some range of mathematical integers.
@@ -83,12 +83,12 @@ Any data type that does not expatiate on the concrete representation of the data
 
 **Language** | **AND** | **OR** | **NOT**
 --- | --- | --- | --- 
-C++ | && | || | !  
-C# | && | || | ! 
-Java | && | || | ! 
-JavaScript | && | || | ! 
-Python | and | or | not 
-Swift | && | || | ! 
+C++ | && | || | !
+C# | && | || | !
+Java | && | || | !
+JavaScript | && | || | !
+Python | and | or | not
+Swift | && | || | !
 
 ## Useful resources
 * [JavaScript Reference vs Primitive](https://www.youtube.com/watch?v=9ooYYRLdg_g)
