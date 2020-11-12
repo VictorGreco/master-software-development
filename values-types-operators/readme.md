@@ -83,12 +83,12 @@ Any data type that does not expatiate on the concrete representation of the data
 
 **Language** | **AND** | **OR** | **NOT**
 --- | --- | --- | --- 
-C++ | && | || | !
-C# | && | || | !
-Java | && | || | !
-JavaScript | && | || | !
-Python | and | or | not
-Swift | && | || | !
+C++ | `&&` | `||` | `!`
+C# | `&&` | `||` | `!`
+Java | `&&` | `||` | `!`
+JavaScript | `&&` | `||` | `!`
+Python | `and` | `or` | `not`
+Swift | `&&` | `||` | `!`
 
 ## Useful resources
 * [JavaScript Reference vs Primitive](https://www.youtube.com/watch?v=9ooYYRLdg_g)
