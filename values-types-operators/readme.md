@@ -12,7 +12,7 @@ The theory of computation classifies languages by the computations they are capa
 ### Examples
 Java, Python, Go, Perl, JavaScript, C#.
 
-## What is a variable? Difference between local/global and why is recommended to avoid globals.
+## Variables
 A variable is the name you give to computer memory location which is used to store values in a computer program. Global variables are accessible at any moment since the program starts until it ends. Local variables are created inside a function and are only accessible in the scope of that function.
 **Parameter** | **Local** | **Global**
 --- | --- | ---
@@ -60,7 +60,7 @@ Attribute of data which tells the compiler or interpreter how the programmer int
 * **Characters**: Char is defined as the smallest addressable unit of memory.
 * **Strings**: Characters may be combined into strings. The string data can include numbers and other numerical symbols but is treated as text.
 
-#### Composite types
+### Composite types
 * **Array**: stores a number of elements and provide random access to individual elements. 2D arrays stores a number defined number of arrays.
 * **Union**: A union type definition will specify which of a number of permitted primitive types may be stored in its instances.
 * **Record**: A record is a value that contains other values, typically in fixed number and sequence and typically indexed by names.
