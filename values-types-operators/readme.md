@@ -81,15 +81,6 @@ Any data type that does not expatiate on the concrete representation of the data
 * **OR**: In classical programming, the logical OR is meant to manipulate boolean values only. If any of its arguments are `true`, it returns `true`, otherwise it returns `false`.
 * **NOT**: Converts the operand to boolean type: `true/false`. Returns the inverse value.
 
-**Language** | **AND** | **OR** | **NOT**
---- | --- | --- | --- 
-C++ | `&&` | `||` | `!`
-C# | `&&` | `||` | `!`
-Java | `&&` | `||` | `!`
-JavaScript | `&&` | `||` | `!`
-Python | `and` | `or` | `not`
-Swift | `&&` | `||` | `!`
-
 ## Useful resources
 * [JavaScript Reference vs Primitive](https://www.youtube.com/watch?v=9ooYYRLdg_g)
 * [JavaScript Data Types](https://www.youtube.com/watch?v=edlFjlzxkSI)
