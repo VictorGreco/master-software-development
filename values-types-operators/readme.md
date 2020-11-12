@@ -1,5 +1,5 @@
-# VALUES, TYPES & OPERATORS
-In this project I had to learn and investigate in deep about the basics of programming and about the most common values, types and operators.
+# values-types-operators
+On this project I had to investigate and understand in deep about the basics of programming and about the most common values, types and operators.
 
 ## What is a programming language?
 In poor words a programming language is a set of instructions a computer can follow to do resolve a task. There are 3 main concepts:
