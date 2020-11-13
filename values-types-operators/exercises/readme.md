@@ -1,4 +1,4 @@
-# Exercises explained
+# values-types-operators | Exercises explained
 
 ## Introduction
 This exercises are made with **npm** and **unit testing**. Before starting make sure you have **node** installed on your machine. If not you can [install node here](https://nodejs.org/en/).
