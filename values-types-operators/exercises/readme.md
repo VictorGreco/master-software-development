@@ -93,8 +93,6 @@ Now you can know if you are doing the exercises right or not by using **unit tes
 
 [Test](/src/__tests__/02-exercise.test.js) From the exercise we import the `makeNumber` variable created in the `02-exercise.js` and we check by using `.toEqual(expect.any(Number)` if the value is a number.
 
-[Dive-in matchers](https://jestjs.io/docs/en/using-matchers)
-
 ### Exercise 3
 [Exercise](/src/03-exercise.js) The goal is to create different variables to store different types and return a dictionary with all the variables.
 
@@ -208,3 +206,5 @@ so we can mock and make sure all the if returns triggers as expected.
 
 ## Conclusion
 This exercises were perfect to put in practice some coding fundamentals and more important start to really understand how **unit testing** works.
+
+[Dive-in matchers](https://jestjs.io/docs/en/using-matchers)
