@@ -1,5 +1,5 @@
 # program-structures Theory
-On this module I have to go in deep on how functions, naming, conditionals and iterations works. I will do it for the following languages: `JavaScript`, `Java`, `PHP`, `Go`, `Python`, `C#`. 
+On this module I have to go in deep on how functions, naming, conditionals and iterations works. I will do it for the following languages: `JavaScript`, `TypeScript`, `Java`, `PHP`, `Go`, `Python`, `C#`. 
 
 ## Naming Rules
 In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.
