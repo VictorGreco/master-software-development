@@ -1,4 +1,4 @@
-# program-structures | Theory
+# program-structures Theory
 On this module I have to go in deep on how functions, naming, conditionals and iterations works. I will do it for the following languages: `JavaScript`, `Java`, `PHP`, `Go`, `Python`, `C#`. 
 
 ## Naming Rules
@@ -44,64 +44,39 @@ https://en.wikipedia.org/wiki/Letter_case#Special_case_styles
 
 ### JavaScript
 ```js
-await | break | case | catch | class | const | continue | debugger | default
-delete | do | else | enum | export | extends | false | finally | for
-function | if | implements | import | in | instanceof | interface | let
-new | null | package | private | protected | public | return |super | switch
-static | this | throw | try | True | typeof | var | void | while | with | yield
+await break case catch class const continue debugger default delete do else enum export extends false finally for function if implements import in instanceof interface let new null package private protected public returnsuper switch static this throw try True typeof var void while with yield
 ```
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[All JavaScript keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar)
 
 ### Java
 ```java
-abstract | assert | boolean | break | byte | case | catch | char | class | const
-continue | default | do | double | else | enum | extends | final | finally | float
-for | goto | if | implements | import | instanceof | int | interface | long | native
-new | package | private | protected | public | return | short | static | strictfp | super
-switch | synchronized | this | throw | throws | transient | try | void | volatile | while
+abstract assert boolean break byte case catch char class const continue default do double else enum extends final finally float for goto if implements import instanceof int interface long native new package private protected public return short static strictfp super switch synchronized this throw throws transient try void volatile while
 ```
-https://en.wikibooks.org/wiki/Java_Programming/Keywords
+[All Java keywords](https://en.wikibooks.org/wiki/Java_Programming/Keywords)
 
 ### Python
 ```python
-False | def | if | raise | None | del | import | return | True | elif | in | try 
-and	| else | is | while | as | except | lambda | with | assert | finally | nonlocal
-yield | break | for | not | class | from | or | continue | global | pass
+False def if raise None del import return True elif in try and else is while as except lambda with assert finally nonlocal yield break for not class from or continue global pass
 ```
-https://realpython.com/lessons/reserved-keywords/
+[All Python keywords](https://realpython.com/lessons/reserved-keywords/)
 
 ### Go
 ```go
-break | default | func | interface | select | case | defer | go | map
-struct | chan | else | goto | package | switch | const | fallthrough
-if | range | type | continue | for | import | return | var
+break default func interface select case defer go map struct chan else goto package switch const fallthrough if range type continue for import return var
 ```
-https://notes.shichao.io/golang/#:~:text=Keywords%20or%20reserved%20words%20are,%2C%20import%20%2C%20return%20%2C%20var%20.
+[All Go keywords](https://notes.shichao.io/golang/#:~:text=Keywords%20or%20reserved%20words%20are,%2C%20import%20%2C%20return%20%2C%20var%20)
 
 ### PHP
 ```php
-__halt_compiler() | abstract | and | array() | as | break | callable | case | catch
-class | clone | const | continue | declare | default | die() | do | echo | else | elseif 
-empty() | enddeclare | endfor | endforeach | endif | endswitch | endwhile | eval() | exit()
-extends | final | finally | fn | for | foreach | function | global | goto | if | implements
-include | include_once | instanceof | insteadof | interface | isset() | list() | namespace
-new | or | print | private | protected | public | require | require_once | return | static
-switch | throw | trait | try | unset() | use | var | while | xor | yield | yield | from
+__halt_compiler() abstract and array() as break callable case catch class clone const continue declare default die() do echo else elseif empty() enddeclare endfor endforeach endif endswitch endwhile eval() exit() extends final finally fn for foreach function global goto if implements include include_once instanceof insteadof interface isset() list() namespace new or print private protected public require require_once return static switch throw trait try unset() use var while xor yield yield from
 ```
-https://www.php.net/manual/en/reserved.keywords.php
+[All PHP keywords](https://www.php.net/manual/en/reserved.keywords.php)
 
 ### C#
 ```c
-abstract | as | base | bool | break | byte | case | catch | char | checked | class | const	
-continue | decimal | default | delegate | do | double | else | enum | event | explicit
-extern | false | finally | fixed | float | for | foreach | goto | if | implicit | in | int
-interface | internal | is | lock | long | namespace | new | null | object | operator | out
-override | params | private | protected | public | readonly | ref | return | sbyte | sealed
-short | sizeof | stackalloc | static | string | struct | switch | this | throw | true | try
-typeof | uint | ulong | unchecked | unsafe | ushort| using | virtual | void | volatile
+abstract as base bool break byte case catch char checked class const continue decimal default delegate do double else enum event explicit extern false finally fixed float for foreach goto if implicit in int interface internal is lock long namespace new null object operator out override params private protected public readonly ref return sbyte sealed short sizeof stackalloc static string struct switch this throw true try typeof uint ulong unchecked unsafe ushort using virtual void volatile
 ```
-
-https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/
+[All C# keywords](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/)
 
 ## Functions, parameters and arguments
 
