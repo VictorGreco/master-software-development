@@ -80,7 +80,7 @@ https://notes.shichao.io/golang/#:~:text=Keywords%20or%20reserved%20words%20are,
 
 ### PHP
 ```php
-__halt_compiler() |	abstract | and | array() | as | break | callable | case | catch
+__halt_compiler() | abstract | and | array() | as | break | callable | case | catch
 class | clone | const | continue | declare | default | die() | do | echo | else | elseif 
 empty() | enddeclare | endfor | endforeach | endif | endswitch | endwhile | eval() | exit()
 extends | final | finally | fn | for | foreach | function | global | goto | if | implements
