@@ -455,25 +455,36 @@ foreach (type variableName in arrayName)
 }
 ```
 
-### Iterate multidimensional arrays
-Which iterator to use
-
-## Switch vs If Else
-What happens if not break ?
-
-
 ## Dive-in the language
 
 ### JavaScript
+[Official documentation](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript) <br>
+[Tutorials](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript) <br>
+[References](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
 ### TypeScript
+[Official documentation](https://www.typescriptlang.org/docs/) <br>
+[Community](https://www.typescriptlang.org/community) <br>
+[Playground](https://www.typescriptlang.org/play?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCoASMFmgY7p7ehCTkVOle4jUMdRLYTqCc8LEZzCZmoNJODPHFZZXVtZYYkAAeRJTInDQS8po+rf40gnjbDKv8LqD2jpbYoACqAEoAMsK7sUmxkGSCc+VVQQuaTwVb1UBrDYULY7PagbgUZLJH6QbYmJAECjuMigZEMVDsJzCFLNXxtajBBCcQQ0MwAUVWDEQNUgADVHBQGNJ3KAALygABEAAkYNAMOB4GRogLFFTBPB3AExcwABT0xnM9zsyhc9wASmCKhwDQ8ZC8iElzhB7Bo3zcZmY7AYzEg-Fg0HUiS58D0Ii8AoZTJZggFSRxAvADlQAHJhAA5SASAVBFQAeW+ZF2gldWkgx1QjgUrmkeFATgtOlGWH0KAQiBhwiudokkuiIgMHBx3RYbC43CCJSAA) <br>
+[Tools](https://www.typescriptlang.org/play?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCoASMFmgY7p7ehCTkVOle4jUMdRLYTqCc8LEZzCZmoNJODPHFZZXVtZYYkAAeRJTInDQS8po+rf40gnjbDKv8LqD2jpbYoACqAEoAMsK7sUmxkGSCc+VVQQuaTwVb1UBrDYULY7PagbgUZLJH6QbYmJAECjuMigZEMVDsJzCFLNXxtajBBCcQQ0MwAUVWDEQNUgADVHBQGNJ3KAALygABEAAkYNAMOB4GRogLFFTBPB3AExcwABT0xnM9zsyhc9wASmCKhwDQ8ZC8iElzhB7Bo3zcZmY7AYzEg-Fg0HUiS58D0Ii8AoZTJZggFSRxAvADlQAHJhAA5SASAVBFQAeW+ZF2gldWkgx1QjgUrmkeFATgtOlGWH0KAQiBhwiudokkuiIgMHBx3RYbC43CCJSAA)
 
 ### Java
+[Official documentation](https://docs.oracle.com/en/java/) <br>
+[Version history](https://en.wikipedia.org/wiki/Java_version_history)
 
 ### Python
+[Official documentation](https://docs.python.org/3/) <br>
+[PyPi](https://pypi.org/) <br>
+[Community](https://www.python.org/community-landing/)
 
 ### Go
+[Official documentation](https://golang.org/doc/) <br>
+[The Project](https://golang.org/project/) <br>
+[Blog](https://blog.golang.org/)
 
 ### PHP
+[Official documentation](https://www.php.net/docs.php)
 
 ### C#
+[Official documentation](https://docs.microsoft.com/en-us/dotnet/csharp/) <br>
+[What's new](https://docs.microsoft.com/en-us/dotnet/csharp/)
