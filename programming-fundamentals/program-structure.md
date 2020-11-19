@@ -1,21 +1,21 @@
-# program-structures Theory
-On this module I have to go in deep on how functions, naming, conditionals and iterations works. I will do it for the following languages: `JavaScript`, `TypeScript`, `Java`, `PHP`, `Go`, `Python`, `C#`. 
+# **Program Structure**
+On this module I have to go in deep on what we know as program structure, naming, conditionals and loops and iterations.
 
 ## Naming Rules
-In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.
+In [Computer Programming](https://en.wikipedia.org/wiki/Computer_programming) a [naming convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)) is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.
 
 ### Advantages
-* to provide additional information about the use to which an identifier
-* to help formalize expectations and promote consistency within a development team
-* to enable the use of automated refactoring or search and replace tools
-* to enhance the aesthetic and professional appearance of work product
-* to help avoid "naming collisions"
-* to provide meaningful data to be used in project handovers and better understanding
+* provide additional information about the use to which an [identifier](http://aboutc.weebly.com/identifiers.html#:~:text=An%20identifier%20is%20a%20string,is%20a%20user%2Ddefined%20word.).
+* help formalize expectations and promote [consistency](https://dl.acm.org/doi/10.1145/142868.142914#:~:text=An%20important%20aspect%20in%20the,system%20being%20designed%20and%20implemented.&text=Consistency%20of%20descriptions%20is%20defined,the%20interpretations%20of%20the%20descriptions.) within a development team.
+* enable the use of [automated refactoring](https://www.sciencedirect.com/topics/computer-science/automated-refactorings) or search and replace tools.
+* enhance the [aesthetic](https://darc.au.dk/research/research-agenda/aesthetic-programming/#:~:text=The%20term%20Aesthetic%20Programming%20thereby,implications%20of%20techno%2Dcultural%20systems.) and professional appearance of work product.
+* help avoid ["naming collisions"](https://en.wikipedia.org/wiki/Naming_collision).
+* provide meaningful data to be used in project handovers and better understanding.
 
 ### Disadvantages
-* Each programming language uses it's own convention
-* Could be challenging to agree on a common naming
-* Automatic process could fail or underperform if not followed
+* Each programming language uses it's own convention.
+* Could be challenging to agree on a common naming.
+* Automatic process could crash or underperform if not followed.
 
 ### Flat case
 `flatcase` and `UPPERFLATCASE` are not commonly used as the readability is not really good when you have to deal with multiple words naming.
@@ -35,50 +35,61 @@ In computer programming, a naming convention is a set of rules for choosing the 
 `TRAIN-CASE` is the same concept but with capitalized letters.
 `HTTP-Header-Case` is an extended convention to name HTTP request headers.   
 
+### [More about naming](https://en.wikipedia.org/wiki/Letter_case#Special_case_styles)
 
-https://en.wikipedia.org/wiki/Letter_case#Special_case_styles
+## Reserved words vs keywords
+* **Reserved words:** are words that cannot be used as an identifier, such as the name of  a variable, function, label ... This is a syntactic definition, and a [reserved word](https://en.wikipedia.org/wiki/Reserved_word#:~:text=In%20a%20computer%20language%2C%20a,word%20may%20have%20no%20meaning.) may have no meaning.
+* **Keywords:** are reserved words as a string of characters will unambiguously be either a [keyword](https://www.webopedia.com/TERM/K/keyword.html#:~:text=(2)%20In%20programming%2C%20a,are%20sometimes%20called%20reserved%20names%20.) or an identifier, usually a subset of reserved words.
 
-## Reserved words and keywords
-**Reserved words** are words that cannot be used as an identifier, such as the name of  a variable, function, label ... This is a syntactic definition, and a reserved word may have no meaning.
-**Keywords** are reserved words as a string of characters will unambiguously be either a keyword or an identifier, usually a subset of reserved words.
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src="../resources/js_logo.png" alt="JavaScript Logo" width="120" height="80">
+</a>
 
-### JavaScript
+### JavaScript [keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar)
 ```js
 await break case catch class const continue debugger default delete do
 else enum export extends false finally for function if implements import
 in instanceof interface let new null package private protected public
 returnsuper switch static this throw try True typeof var void while with yield
 ```
+<br>
+<a href="https://docs.oracle.com/en/java/">
+    <img src="../resources/java_logo.png" alt="Java Logo" width="120" height="80">
+</a>
 
-[All JavaScript keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar)
-
-### Java
+### Java [keywords](https://en.wikibooks.org/wiki/Java_Programming/Keywords)
 ```java
 abstract assert boolean break byte case catch char class const continue default
 do double else enum extends final finally float for goto if implements import instanceof
 int interface long native new package private protected public return short static
 strictfp super switch synchronized this throw throws transient try void volatile while
 ```
+<br>
+<a href="https://docs.python.org/3/">
+    <img src="../resources/python_logo.png" alt="Python Logo" width="120" height="80">
+</a>
 
-[All Java keywords](https://en.wikibooks.org/wiki/Java_Programming/Keywords)
-
-### Python
+### Python [keywords](https://realpython.com/lessons/reserved-keywords/)
 ```python
 False def if raise None del import return True elif in try and else is while as except
 lambda with assert finally nonlocal yield break for not class from or continue global pass
 ```
+<br>
+<a href="https://golang.org/doc/">
+    <img src="../resources/go_logo.png" alt="Golang Logo" width="120" height="80">
+</a>
 
-[All Python keywords](https://realpython.com/lessons/reserved-keywords/)
-
-### Go
+### Go [keywords](https://notes.shichao.io/golang/#:~:text=Keywords%20or%20reserved%20words%20are,%2C%20import%20%2C%20return%20%2C%20var%20)
 ```go
 break default func interface select case defer go map struct chan else goto package
 switch const fallthrough if range type continue for import return var
 ```
+<br>
+<a  href="php.net/docs.php">
+    <img src="../resources/php_logo.png" alt="PHP Logo" width="120" height="80">
+</a>
 
-[All Go keywords](https://notes.shichao.io/golang/#:~:text=Keywords%20or%20reserved%20words%20are,%2C%20import%20%2C%20return%20%2C%20var%20)
-
-### PHP
+### PHP [keywords](https://www.php.net/manual/en/reserved.keywords.php)
 ```php
 __halt_compiler() abstract and array() as break callable case catch class clone const
 continue declare default die() do echo else elseif empty() enddeclare endfor 
@@ -87,10 +98,12 @@ function global goto if implements include include_once instanceof insteadof i
 isset() list() namespace new or print private protected public require require_once 
 return static switch throw trait try unset() use var while xor yield yield from
 ```
+<br>
+<a href="https://docs.microsoft.com/es-es/dotnet/csharp/">
+    <img src="../resources/c_logo.png" alt="CSharp Logo" width="120" height="80">
+</a>
 
-[All PHP keywords](https://www.php.net/manual/en/reserved.keywords.php)
-
-### C#
+### C# [keywords](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/)
 ```c#
 abstract as base bool break byte case catch char checked class const continue decimal 
 default delegate do double else enum event explicit extern false finally fixed float 
@@ -99,80 +112,42 @@ object operator out override params private protected public readonly ref return
 sealed short sizeof stackalloc static string struct switch this throw true try typeof
 uint ulong unchecked unsafe ushort using virtual void volatile
 ```
-
-[All C# keywords](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/)
+<br>
 
 ## Scope and Variable types
-the strict definition of scope is  the portion of source code in which a binding of a name with an entity applies. Said in other words is the fraction of the code on which an identifier is accessible. Depending on the scope we can classify different variables:
+the strict definition of [scope](https://en.wikipedia.org/wiki/Scope_(computer_science)) is the portion of source code in which a binding of a name with an entity applies. In other words is the fraction of the code on which an identifier is accessible. Depending on the scope we can classify different variables:
 
 * **Local Variables**: Exists only in a specific function execution time.
-* **Autogenerated Variables**: are variables which are generated and removed automatically when the function ends
-* **Global Variables**: are accessible since the start until the end oof the execution of the program 
-* **Extern Variables**: are shared variables cross files
-* **Constant Variables**: are variables which value is immutable and can not be modified
+* **Autogenerated Variables**: Variables which are generated and removed automatically when the function ends
+* **Global Variables**: Accessible since the start until the end oof the execution of the program 
+* **Extern Variables**: Shared variables cross files
+* **Constant Variables**: Variables which value is immutable and can not be modified
+
+For further information about variables check the [Values, Types and Operators](/programming-fundamentals/values-types-operators.md#Variables) :books: .
 
 ## Comments
-Are used to improve readability and simplifies the future understanding of the code. The best practices required to make the code self-readable and self-explanatory. Comments if used must always provide extra value. Comments can be single-line or multiple-line.  
+Comments if used must always provide extra value. It Can be single or multiple lines. Best practices requires to make the code [self-readable and self-explanatory](https://en.wikipedia.org/wiki/Self-documenting_code#:~:text=Self%2Ddocumenting%20code%20is%20ostensibly,symbol's%20meaning%2C%20such%20as%20article.&text=The%20code%20must%20also%20have,easily%20understand%20the%20algorithm%20used.) in order to avoid comments as much as possible.
 
-### JavaScript
+## Single line comments
 ```js
-// this is a single-line comment in JavaScript.
-
-/*
-This is multiple-line
-comment in JavaScript.
-*/
+// In JavaScript, Java, Go, PHP and C based languages we use double slash `//`
 ```
-
-### Java
-```java
-// this is a single-line comment in Java.
-
-/*
-This is multiple-line
-comment in Java.
-*/
-```
-
-### Python
-python is an exception as it doesn't support multiple-line comments
 
 ```python
-# This is a single-line comment in Python
-
-# This is a how
-# multiple-line comments 
-# in Python looks like
+# Python and Bash uses sharp `#` at the beggining of the line to mark it as a comment
 ```
 
-### Go
-```go
-// this is a single-line comment in Go.
-
-/*
-This is multiple-line
-comment in Go.
-*/
+## Multiple line comments
+```js
+/* JavaScript, Java, Go, PHP and C based languages text
+placed between / * and * / are considered as 
+multiple line comments or block comments */
 ```
 
-### PHP
-```php
-// this is a single-line comment in PHP.
-
-/*
-This is multiple-line
-comment in PHP.
-*/
-```
-
-### C#
-```c#
-// this is a single-line comment in C#.
-
-/*
-This is multiple-line
-comment in C#.
-*/
+```python
+# Python, Bash and other languages we use #
+# at the beggining of each line we want
+# to comment as there are no multiple line comments
 ```
 
 ## Functions
