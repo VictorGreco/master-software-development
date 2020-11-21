@@ -1,4 +1,4 @@
-# **values-types-operators**
+# **Values, Types and Operators**
 On this project I had to investigate and understand in deep about the basics of programming and about the most common values, types and operators.
 
 ## **Programming Languages**
