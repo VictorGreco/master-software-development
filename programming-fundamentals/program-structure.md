@@ -37,7 +37,7 @@ In [Computer Programming](https://en.wikipedia.org/wiki/Computer_programming) a 
 
 ### [More about naming](https://en.wikipedia.org/wiki/Letter_case#Special_case_styles)
 
-## Reserved words vs keywords
+## Reserved words vs Keywords
 * **Reserved words:** are words that cannot be used as an identifier, such as the name of  a variable, function, label ... This is a syntactic definition, and a [reserved word](https://en.wikipedia.org/wiki/Reserved_word#:~:text=In%20a%20computer%20language%2C%20a,word%20may%20have%20no%20meaning.) may have no meaning.
 * **Keywords:** are reserved words as a string of characters will unambiguously be either a [keyword](https://www.webopedia.com/TERM/K/keyword.html#:~:text=(2)%20In%20programming%2C%20a,are%20sometimes%20called%20reserved%20names%20.) or an identifier, usually a subset of reserved words.
 
@@ -114,7 +114,7 @@ uint ulong unchecked unsafe ushort using virtual void volatile
 ```
 <br>
 
-## Scope and Variable types
+## Scope and Variable Types
 the strict definition of [scope](https://en.wikipedia.org/wiki/Scope_(computer_science)) is the portion of source code in which a binding of a name with an entity applies. In other words is the fraction of the code on which an identifier is accessible. Depending on the scope we can classify different variables:
 
 * **Local Variables**: Exists only in a specific function execution time.
@@ -256,29 +256,22 @@ class NumberManipulator {
 ```
 
 ## Loops vs Iterators
-The difference is quite subtle indeed. Both loops and iterators are used to repeat a chunk of code. Loops are an ancient idea, they existed long before computers did. Almost every programming language has some kind of loops. Iterators are relatively new, and they only exist in a few languages such as Ruby.
+The difference is quite subtle indeed. Both loops and iterators are used to repeat a chunk of code. [Loops](https://techterms.com/definition/loop#:~:text=In%20computer%20science%2C%20a%20loop,functions%2C%20and%20many%20other%20things.) are an ancient idea, they existed long before computers did. Almost every programming language has some kind of loops. [Iterators](https://en.wikipedia.org/wiki/Iterator#:~:text=In%20computer%20programming%2C%20an%20iterator,provided%20via%20a%20container's%20interface.) are relatively new, and they only exist in a few languages such as Ruby.
 
 * **Loops:** are both powerful and dangerous: it’s too easy to break your program by producing a so called infinite loop, if you fail to ensure that the termination condition really occurs.
 * **Iterators:** are conceptually used to perform a task on each data item.
 
 ### For
+It's an example of Loop where you define the how many times the loop should trigger by describing  the starting point, the condition to reach and the incremental used for each iteration.    
 
-#### JavaScript
+#### JavaScript, TypeScript, 
 ```js
-for(var i = 0; i < 5; i++) {
-    // perform a given task 5 loops
+for (var i = 0; i < 5; i++) {
+    // perform a given task 5 times
 }
 ```
 
-#### TypeScript
-```ts
-for (var _i = 0; _i < numbers.length; _i++) {
-  var num = numbers[_i];
-  console.log(num);
-}
-```
-
-#### Java
+#### Java, C#
 ```java
 for (int i = 0; i < 5; i++) {
   System.out.println(i);
@@ -301,35 +294,16 @@ for i := 0; i < 10; i++ {
 ?>
 ```
 
-#### C#
-```c#
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine(i);
-}
-```
-
 ### While
+Another type of loop which runs until the given condition is `true`.  
 
-#### JavaScript
+#### JavaScript, TypeScript, Java, C#
 ```js
-while (condition) {
-  // code block to be executed
-}
-```
-#### TypeScript
-```ts
 while (condition expression) {
-    // code block to be executed
+  // code block to be executed
 }
 ```
 
-#### Java
-```java
-while (condition) {
-  // code block to be executed
-}
-```
 #### Python
 ```python
 i = 1
@@ -349,25 +323,11 @@ while i < 6:
     }
 ?>
 ```
-#### C#
-```c#
-while (condition) 
-{
-  // code block to be executed
-}
-```
 
 ### For In
 
-#### JavaScript
+#### JavaScript, TypeScript 
 ```js
-for (const property in object) {
-  console.log(`${property}: ${object[property]}`);
-}
-```
-
-#### TypeScript
-```ts
 for (const property in object) {
   console.log(`${property}: ${object[property]}`);
 }
@@ -383,14 +343,10 @@ for x in fruits:
 ```
 
 ### For Each
+An iterator which runs for each item to iterate and perform the given expression.
 
-#### JavaScript
+#### JavaScript, TypeScript
 ```js
-array1.forEach(element => console.log(element));
-```
-
-#### TypeScript
-```ts
 array1.forEach(element => console.log(element));
 ```
 
@@ -430,36 +386,69 @@ foreach (type variableName in arrayName)
 }
 ```
 
-## Dive-in the language
+## More About
 
-### JavaScript
-[Official documentation](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript) <br>
-[Tutorials](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript) <br>
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src="../resources/js_logo.png" alt="JavaScript Logo" width="120" height="80">
+</a>
+
+[Official documentation](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript) | 
+[Tutorials](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript) | 
 [References](https://wiki.developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
-### TypeScript
-[Official documentation](https://www.typescriptlang.org/docs/) <br>
-[Community](https://www.typescriptlang.org/community) <br>
-[Playground](https://www.typescriptlang.org/play?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCoASMFmgY7p7ehCTkVOle4jUMdRLYTqCc8LEZzCZmoNJODPHFZZXVtZYYkAAeRJTInDQS8po+rf40gnjbDKv8LqD2jpbYoACqAEoAMsK7sUmxkGSCc+VVQQuaTwVb1UBrDYULY7PagbgUZLJH6QbYmJAECjuMigZEMVDsJzCFLNXxtajBBCcQQ0MwAUVWDEQNUgADVHBQGNJ3KAALygABEAAkYNAMOB4GRogLFFTBPB3AExcwABT0xnM9zsyhc9wASmCKhwDQ8ZC8iElzhB7Bo3zcZmY7AYzEg-Fg0HUiS58D0Ii8AoZTJZggFSRxAvADlQAHJhAA5SASAVBFQAeW+ZF2gldWkgx1QjgUrmkeFATgtOlGWH0KAQiBhwiudokkuiIgMHBx3RYbC43CCJSAA) <br>
+<br>
+
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src="../resources/ts_logo.png" alt="JavaScript Logo" width="120" height="80">
+</a>
+
+[Official documentation](https://www.typescriptlang.org/docs/) | 
+[Community](https://www.typescriptlang.org/community)  | 
+[Playground](https://www.typescriptlang.org/play?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCoASMFmgY7p7ehCTkVOle4jUMdRLYTqCc8LEZzCZmoNJODPHFZZXVtZYYkAAeRJTInDQS8po+rf40gnjbDKv8LqD2jpbYoACqAEoAMsK7sUmxkGSCc+VVQQuaTwVb1UBrDYULY7PagbgUZLJH6QbYmJAECjuMigZEMVDsJzCFLNXxtajBBCcQQ0MwAUVWDEQNUgADVHBQGNJ3KAALygABEAAkYNAMOB4GRogLFFTBPB3AExcwABT0xnM9zsyhc9wASmCKhwDQ8ZC8iElzhB7Bo3zcZmY7AYzEg-Fg0HUiS58D0Ii8AoZTJZggFSRxAvADlQAHJhAA5SASAVBFQAeW+ZF2gldWkgx1QjgUrmkeFATgtOlGWH0KAQiBhwiudokkuiIgMHBx3RYbC43CCJSAA)  | 
 [Tools](https://www.typescriptlang.org/play?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCoASMFmgY7p7ehCTkVOle4jUMdRLYTqCc8LEZzCZmoNJODPHFZZXVtZYYkAAeRJTInDQS8po+rf40gnjbDKv8LqD2jpbYoACqAEoAMsK7sUmxkGSCc+VVQQuaTwVb1UBrDYULY7PagbgUZLJH6QbYmJAECjuMigZEMVDsJzCFLNXxtajBBCcQQ0MwAUVWDEQNUgADVHBQGNJ3KAALygABEAAkYNAMOB4GRogLFFTBPB3AExcwABT0xnM9zsyhc9wASmCKhwDQ8ZC8iElzhB7Bo3zcZmY7AYzEg-Fg0HUiS58D0Ii8AoZTJZggFSRxAvADlQAHJhAA5SASAVBFQAeW+ZF2gldWkgx1QjgUrmkeFATgtOlGWH0KAQiBhwiudokkuiIgMHBx3RYbC43CCJSAA)
 
-### Java
-[Official documentation](https://docs.oracle.com/en/java/) <br>
+<br>
+
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src="../resources/java_logo.png" alt="JavaScript Logo" width="120" height="80">
+</a>
+
+[Official documentation](https://docs.oracle.com/en/java/) | 
 [Version history](https://en.wikipedia.org/wiki/Java_version_history)
 
-### Python
-[Official documentation](https://docs.python.org/3/) <br>
-[PyPi](https://pypi.org/) <br>
+<br>
+
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src="../resources/python_logo.png" alt="JavaScript Logo" width="120" height="80">
+</a>
+
+[Official documentation](https://docs.python.org/3/) | 
+[PyPi](https://pypi.org/) | 
 [Community](https://www.python.org/community-landing/)
 
-### Go
-[Official documentation](https://golang.org/doc/) <br>
-[The Project](https://golang.org/project/) <br>
+<br>
+
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src="../resources/go_logo.png" alt="JavaScript Logo" width="120" height="80">
+</a>
+
+[Official documentation](https://golang.org/doc/) | 
+[The Project](https://golang.org/project/) | 
 [Blog](https://blog.golang.org/)
 
-### PHP
+<br>
+
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src="../resources/php_logo.png" alt="JavaScript Logo" width="120" height="80">
+</a>
+
 [Official documentation](https://www.php.net/docs.php)
 
-### C#
-[Official documentation](https://docs.microsoft.com/en-us/dotnet/csharp/) <br>
+<br>
+
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src="../resources/c_logo.png" alt="JavaScript Logo" width="120" height="80">
+</a>
+
+[Official documentation](https://docs.microsoft.com/en-us/dotnet/csharp/) | 
 [What's new](https://docs.microsoft.com/en-us/dotnet/csharp/)
