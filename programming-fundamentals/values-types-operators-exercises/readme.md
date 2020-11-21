@@ -1,4 +1,4 @@
-# values-types-operators | Exercises explained
+# programming-fundamentals | Exercises explained
 
 ## Introduction
 This exercises are made with **npm** and **unit testing**. Before starting make sure you have **node** installed on your machine. If not you can [install node here](https://nodejs.org/en/).
@@ -88,29 +88,29 @@ Now you can know if you are doing the exercises right or not by using **unit tes
 ## Exercises explained
 
 ### Exercise 1
-[Exercise](/values-types-operators/exercises/src/01-exercise.js) The goal is to know how to store information inside variables. The string `'hello-world'` on this case.
+[Exercise](/programming-fundamentals/values-types-operators-exercises/src/01-exercise.js) The goal is to know how to store information inside variables. The string `'hello-world'` on this case.
 
-[Test](/values-types-operators/exercises/src/__tests__/01-exercise.test.js) From the exercise we import the `makeVar` variable created in the `01-exercise.js` so we can properly in a functional way of the value match the pattern `/hello-world/`.
+[Test](/programming-fundamentals/values-types-operators-exercises/src/__tests__/01-exercise.test.js) From the exercise we import the `makeVar` variable created in the `01-exercise.js` so we can properly in a functional way of the value match the pattern `/hello-world/`.
 
 ### Exercise 2
-[Exercise](/values-types-operators/exercises/src/02-exercise.js) The goal is to store a number inside a variable.
+[Exercise](/programming-fundamentals/values-types-operators-exercises/src/02-exercise.js) The goal is to store a number inside a variable.
 
-[Test](/values-types-operators/exercises/src/__tests__/02-exercise.test.js) From the exercise we import the `makeNumber` variable created in the `02-exercise.js` and we check by using `.toEqual(expect.any(Number)` if the value is a number.
+[Test](/programming-fundamentals/values-types-operators-exercises/src/__tests__/02-exercise.test.js) From the exercise we import the `makeNumber` variable created in the `02-exercise.js` and we check by using `.toEqual(expect.any(Number)` if the value is a number.
 
 ### Exercise 3
-[Exercise](/values-types-operators/exercises/src/03-exercise.js) The goal is to create different variables to store different types and return a dictionary with all the variables.
+[Exercise](/programming-fundamentals/values-types-operators-exercises/src/03-exercise.js) The goal is to create different variables to store different types and return a dictionary with all the variables.
 
 [Test](/src/__tests__/03-exercise.test.js) From the test we import the `variableTypes` created in the `03-exercise.js` and we check one by one all the variables to make sure they are set as we expect.
 
 ### Exercise 4
-[Exercise](/values-types-operators/exercises/src/04-exercise.js) The goal is to create different variables to store `null` and `undefined` values.
+[Exercise](/programming-fundamentals/values-types-operators-exercises/src/04-exercise.js) The goal is to create different variables to store `null` and `undefined` values.
 
 [Test](/src/__tests__/04-exercise.test.js) From the test we import the `makeNullUndefinedVariables` created in the `04-exercise.js`. We use `.toBeNull()` and  `.toBeUndefined()` build-in methods to check this special values. 
 
 ### Exercise 5
-[Exercise](/values-types-operators/exercises/src/05-exercise.js) The goal is to create  and export different functions which each one triggers a `console.log` with different values.
+[Exercise](/programming-fundamentals/values-types-operators-exercises/src/05-exercise.js) The goal is to create  and export different functions which each one triggers a `console.log` with different values.
 
-[Test](/values-types-operators/exercises/src/__tests__/05-exercise.test.js) From the test we import the all the different functions.
+[Test](/programming-fundamentals/values-types-operators-exercises/src/__tests__/05-exercise.test.js) From the test we import the all the different functions.
 ```js
 import {
   learnConsoleLog,
@@ -140,7 +140,7 @@ afterEach(() => {
 On each test we use the  `.toHaveBeenCalledWith()` build in jest function to test the values we pass to the target function.
 
 ### Exercise 6
-[Exercise](/values-types-operators/exercises/src/06-exercise.js) The goal is to return different messages depending on the values of the given parameters `x` and `y`. I decided to go for a if return approach so the function execution finish when the first return triggers. 
+[Exercise](/programming-fundamentals/values-types-operators-exercises/src/06-exercise.js) The goal is to return different messages depending on the values of the given parameters `x` and `y`. I decided to go for a if return approach so the function execution finish when the first return triggers. 
 ```js
   if (!x || !y) {
 
@@ -158,7 +158,7 @@ On each test we use the  `.toHaveBeenCalledWith()` build in jest function to tes
 ```
 That way we avoid running each case and improve performance.
 
-[Test](/values-types-operators/exercises/src/__tests__/06-exercise.test.js) On the test side we run our function giving it different parameters 
+[Test](/programming-fundamentals/values-types-operators-exercises/src/__tests__/06-exercise.test.js) On the test side we run our function giving it different parameters 
 ```js
 test("exercise 6: save the value 'error' in the variable 'result' when x and y are undefined", () => {
   expect(compareValues()).toMatch(/error/i);
@@ -171,42 +171,42 @@ test("exercise 6: save the value 'smaller' in the variable 'result' when x is sm
 so we can mock and make sure all the if returns triggers as expected.
 
 ### Exercise 6
-[Exercise](/values-types-operators/exercises/src/04-exercise.js) The goal is to create different variables to store `null` and `undefined` values.
+[Exercise](/programming-fundamentals/values-types-operators-exercises/src/04-exercise.js) The goal is to create different variables to store `null` and `undefined` values.
 
-[Test](/values-types-operators/exercises/src/__tests__/04-exercise.test.js) From the test we import the `makeNullUndefinedVariables` created in the `04-exercise.js`. We use `.toBeNull()` and  `.toBeUndefined()` build-in methods to check this special values. 
+[Test](/programming-fundamentals/values-types-operators-exercises/src/__tests__/04-exercise.test.js) From the test we import the `makeNullUndefinedVariables` created in the `04-exercise.js`. We use `.toBeNull()` and  `.toBeUndefined()` build-in methods to check this special values. 
 
 ### Exercise 7, 8, 9, 10, 11
-[Exercise 7](/values-types-operators/exercises/src/07-exercise.js) | [Exercise 8](/values-types-operators/exercises/src/08-exercise.js) | [Exercise 9](/values-types-operators/exercises/src/09-exercise.js) | [Exercise 10](/values-types-operators/exercises/src/10-exercise.js) | [Exercise 11](/values-types-operators/exercises/src/11-exercise.js). The goal is to play with different math operators like addition `+`, subtraction `-`, multiplication `*`, division `/` and modules `%`.
+[Exercise 7](/programming-fundamentals/values-types-operators-exercises/src/07-exercise.js) | [Exercise 8](/programming-fundamentals/values-types-operators-exercises/src/08-exercise.js) | [Exercise 9](/programming-fundamentals/values-types-operators-exercises/src/09-exercise.js) | [Exercise 10](/programming-fundamentals/values-types-operators-exercises/src/10-exercise.js) | [Exercise 11](/programming-fundamentals/values-types-operators-exercises/src/11-exercise.js). The goal is to play with different math operators like addition `+`, subtraction `-`, multiplication `*`, division `/` and modules `%`.
 
-[Test 7](/values-types-operators/exercises/src/__tests__/07-exercise.test.js) | [Test 8](/values-types-operators/exercises/src/__tests__/08-exercise.test.js) | [Test 9](/values-types-operators/exercises/src/__tests__/09-exercise.test.js) | [Test 10](/values-types-operators/exercises/src/__tests__/10-exercise.test.js) | [Test 11](/values-types-operators/exercises/src/__tests__/11-exercise.test.js) On the test side we are just using a `.toBe()` to check actual value is what we expect.
+[Test 7](/programming-fundamentals/values-types-operators-exercises/src/__tests__/07-exercise.test.js) | [Test 8](/programming-fundamentals/values-types-operators-exercises/src/__tests__/08-exercise.test.js) | [Test 9](/programming-fundamentals/values-types-operators-exercises/src/__tests__/09-exercise.test.js) | [Test 10](/programming-fundamentals/values-types-operators-exercises/src/__tests__/10-exercise.test.js) | [Test 11](/programming-fundamentals/values-types-operators-exercises/src/__tests__/11-exercise.test.js) On the test side we are just using a `.toBe()` to check actual value is what we expect.
 
 ### Exercise 12
-[Exercise](/values-types-operators/exercises/src/12-exercise.js) The goal is to create an array with all the weekdays.
+[Exercise](/programming-fundamentals/values-types-operators-exercises/src/12-exercise.js) The goal is to create an array with all the weekdays.
 
 [Test](/src/__tests__/12-exercise.test.js) By using `.toMatchObject()` we want to make sure the array we are testing is exactly the same we expect.
 
 ### Exercise 13
-[Exercise](/values-types-operators/exercises/src/13-exercise.js) The goal is to access one value inside a given array and store it. As the position of the `pear` value could change I used `fruits[fruits.indexOf('pear')]` to make sure I was accessing the right index. 
+[Exercise](/programming-fundamentals/values-types-operators-exercises/src/13-exercise.js) The goal is to access one value inside a given array and store it. As the position of the `pear` value could change I used `fruits[fruits.indexOf('pear')]` to make sure I was accessing the right index. 
 
-[Test](/values-types-operators/exercises/src/__tests__/13-exercise.test.js) On the test  side we are just making sure the value  we  got is `pear`.
+[Test](/programming-fundamentals/values-types-operators-exercises/src/__tests__/13-exercise.test.js) On the test  side we are just making sure the value  we  got is `pear`.
 
 ### Exercise 14
-[Exercise](/values-types-operators/exercises/src/14-exercise.js) By using the javascript Array build in property `.length` we want to know how long our given array is.
+[Exercise](/programming-fundamentals/values-types-operators-exercises/src/14-exercise.js) By using the javascript Array build in property `.length` we want to know how long our given array is.
 
-[Test](/values-types-operators/exercises/src/__tests__/14-exercise.test.js) On the test side we are just making sure the value we  got is correct length of the array.
+[Test](/programming-fundamentals/values-types-operators-exercises/src/__tests__/14-exercise.test.js) On the test side we are just making sure the value we  got is correct length of the array.
 
 ### Exercise 15
-[Exercise](/values-types-operators/exercises/src/15-exercise.js) The goal is to replace the 3rd position of a  given array with the string `'kiwi'`. This was my solution but probably it can we done in several ways:
+[Exercise](/programming-fundamentals/values-types-operators-exercises/src/15-exercise.js) The goal is to replace the 3rd position of a  given array with the string `'kiwi'`. This was my solution but probably it can we done in several ways:
 ```js
   array[3] = 'kiwi';
 ```
 
-[Test](/values-types-operators/exercises/src/__tests__/15-exercise.test.js) On the test we mock the 3rd position of the returned array and check if the value is what we expect.
+[Test](/programming-fundamentals/values-types-operators-exercises/src/__tests__/15-exercise.test.js) On the test we mock the 3rd position of the returned array and check if the value is what we expect.
 
 ### Exercise 16, 17
-[Exercise 16](/values-types-operators/exercises/src/16-exercise.js) | [Exercise 17](/values-types-operators/exercises/src/17-exercise.js) The goal is to return the wanted string by accessing 2d and multi-d arrays.
+[Exercise 16](/programming-fundamentals/values-types-operators-exercises/src/16-exercise.js) | [Exercise 17](/programming-fundamentals/values-types-operators-exercises/src/17-exercise.js) The goal is to return the wanted string by accessing 2d and multi-d arrays.
 
-[Test 16](/values-types-operators/exercises/src/__tests__/16-exercise.test.js) | [Test 17](/values-types-operators/exercises/src/__tests__/17-exercise.test.js) On the test side we are just testing if the output is the expected one.
+[Test 16](/programming-fundamentals/values-types-operators-exercises/src/__tests__/16-exercise.test.js) | [Test 17](/programming-fundamentals/values-types-operators-exercises/src/__tests__/17-exercise.test.js) On the test side we are just testing if the output is the expected one.
 
 ## Conclusion
 This exercises were perfect to put in practice some coding fundamentals and more important start to really understand how **unit testing** works.
