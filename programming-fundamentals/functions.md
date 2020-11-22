@@ -3,7 +3,7 @@
 ## **Introduction**
 A [function](https://www.tutorialspoint.com/computer_programming/computer_programming_functions.htm#:~:text=A%20function%20is%20a%20block,perform%20a%20single%2C%20related%20action.&text=Different%20programming%20languages%20name%20them,%2Droutines%2C%20procedures%2C%20etc.) is a block of organized, reusable code that is used to perform a single, related action. Functions provide modularity for applications and a high degree of code reusing. Build-in functions are functions provided by the language itself, but we can write our own functions as well. Important concepts about functions are **function name**, **parameter list**, **function body** and **return  type**. Functions needs to defined before we can call it and it only performs the code inside when called. 
 
-### **Naming Rules**
+## **Naming Rules**
 There are many ways to name a function but the most common convention is: Function names should be **verbs** if the function changes the state of the program, and **nouns** if they're used to return a certain value. A part of this most languages have different conventions:
 
 * **C#**: naming conventions generally follow the guidelines published by Microsoft for all .NET languages. The **Microsoft guidelines** recommend the exclusive use of only `PascalCase` and `camelCase`.
